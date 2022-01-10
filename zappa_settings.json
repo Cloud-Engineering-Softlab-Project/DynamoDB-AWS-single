@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-west-3",
+        "profile_name": "softlab",
+        "project_name": "softlab-cloud-engineering-dynamodb",
+        "runtime": "python3.8",
+        "s3_bucket": "softlab-cloudeng-energy-apis-dynamodb-bucket",
+        "excluded": ["venv", "dynamodb_operations.py", "fill_database.py"],
+        "slim_handler": true,
+        "xray_tracing": false,
+        "cloudwatch_log_level": "OFF",
+        "cloudwatch_data_trace": false,
+        "cloudwatch_metrics_enabled": false,
+        "memory_size": 2048
+
+    }
+}
